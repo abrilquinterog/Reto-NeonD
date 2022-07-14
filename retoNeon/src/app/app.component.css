@@ -1,0 +1,43 @@
+.fa-lightbulb{
+    color: white;
+}
+
+.container-fluid{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.fa-co{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 182, 182);
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    z-index: 2;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    box-shadow: 3px;
+}
+
+.fa-clipboard-list {
+    position: relative;
+    top: -55px;
+    left: 40px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}

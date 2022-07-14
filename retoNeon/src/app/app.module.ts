@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { BcardComponent } from './components/bcard.component';
+import { PostComponent } from './components/posted.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BcardComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule
